@@ -1,0 +1,19 @@
+{
+  "name": "aws_node_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "babel ./src/index.js --out-file .index.js",
+    "minify": "npm run transpile && uglifyjs .index.js -o index.js -c -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "uglify-js": "^3.3.16"
+  }
+}

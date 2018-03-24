@@ -1,0 +1,1 @@
+chmodx +x ./scripts/*.sh
