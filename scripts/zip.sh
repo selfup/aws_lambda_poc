@@ -1,1 +1,1 @@
-zip $LAMBDA_NAME.zip index.js
+zip $FN.zip index.js
