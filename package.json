@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "transpile": "babel ./src/main.js --out-file .index.js",
+    "transpile": "babel ./src/index.js --out-file .index.js",
     "minify": "npm run transpile && uglifyjs .index.js -o index.js -c -m",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
