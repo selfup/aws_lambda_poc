@@ -8,7 +8,7 @@ Now code something awesome :tada:
 
 `./scripts/build_and_zip.sh`
 
-Now go to your AWS Lambda console and upload the zip or use the `aws-cli` :rocket:
+Now go to your AWS Lambda console and upload the zip or use the [aws-cli](https://aws.amazon.com/cli/) :rocket:
 
 That's it :joy:
 
