@@ -4,7 +4,7 @@ Get started after clone: `npm i`
 
 Now code something awesome :rocket:
 
-### Packaging
+## Packaging
 
 `./scripts/build_and_zip.sh`
 

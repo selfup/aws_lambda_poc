@@ -17,9 +17,9 @@ const handler = (event, context, callback) => {
   const reqBody = event.body ? JSON.parse(event.body) : event;
 
   // this is not necessary but shows that you can do stuff anyways :P
-  const payloadLength = reqBody
-    .map(e => Object.keys(e).map(e => e + ' '))
-    .length;
+  const payloadLength = !Array.isArray(reqBody)
+    ? Object.keys(reqBody).length
+    : reqBody.length;
 
   // creating a body and statusCode is required for API Gateway
   const body = JSON.stringify({ payloadLength });
