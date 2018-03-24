@@ -1,1 +1,1 @@
-npm run minify && ./scripts/zip.sh
+npm run minify && zip index.zip index.js
