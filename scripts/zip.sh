@@ -1,1 +1,1 @@
-zip $FN.zip index.js
+zip $FN$VERSION.zip index.js
