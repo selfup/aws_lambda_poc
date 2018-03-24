@@ -21,6 +21,8 @@ Or make one right away: `echo VERSION=0.0.1 >> .env && echo FN=test >> .env`
 
 **and simply**: `source .env && ./scripts/build_and_zip.sh`
 
+_You can also oit the version variable and just keep the function name_
+
 Now go to your AWS Lambda console and upload the zip!
 
 That's it :joy:
