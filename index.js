@@ -1,1 +1,0 @@
-"use strict";var handler=function(n,r,t){var e=(n.body?JSON.parse(n.body):n).map(function(n){return Object.keys(n).map(function(n){return n})});JSON.stringify(e),t(null,{statusCode:200,body:JSON.stringify({randomStuff:e.length})})};exports.handler=handler;
