@@ -6,7 +6,7 @@ export default [
     output: {
       file: ".index.js",
       format: "umd",
-      name: "lspi",
+      name: "aws_lambda_poc",
       sourcemap: false,
     },
     plugins: [
