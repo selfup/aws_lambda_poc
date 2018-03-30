@@ -1,3 +1,5 @@
+import calculateKeyLength from './calculateKeyLength';
+
 /**
  * Example payload
  * [{hello: 'world'}, {world: 'hello'}]
@@ -16,10 +18,7 @@ const handler = (event, context, callback) => {
   // JSON.parse(event.body) is needed when using API Gateway
   const reqBody = event.body ? JSON.parse(event.body) : event;
 
-  // this is not necessary but shows that you can do stuff anyways :P
-  const payloadLength = !Array.isArray(reqBody)
-    ? Object.keys(reqBody).length
-    : reqBody.length;
+  const payloadLength = calculateKeyLength(reqBody);
 
   // creating a body and statusCode is required for API Gateway
   const body = JSON.stringify({ payloadLength });
