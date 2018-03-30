@@ -35,4 +35,6 @@ const handler = (event, context, callback) => {
 };
 
 // this is the expected export
-exports.handler = handler; 
+export default {
+  handler,
+}; 
