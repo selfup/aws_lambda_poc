@@ -12,8 +12,8 @@ const handler = (event, context, callback) => {
    * if you just test on lambda console
    * event is already parsed
    */
-  
-   // JSON.parse(event.body) is needed when using API Gateway
+
+  // JSON.parse(event.body) is needed when using API Gateway
   const reqBody = event.body ? JSON.parse(event.body) : event;
 
   // this is not necessary but shows that you can do stuff anyways :P
@@ -37,4 +37,4 @@ const handler = (event, context, callback) => {
 // this is the expected export
 export default {
   handler,
-}; 
+};
