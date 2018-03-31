@@ -14,7 +14,7 @@ Now code something awesome :tada:
 
 As you will no longer need babel/rollup/etc.. (can't bundle these kinds of things)
 
-Remove all `devDependencies`
+Remove all `devDependencies` except eslint and eslint plugins as well as jest
 
 `rm -rf node_modules`
 
