@@ -14,7 +14,7 @@ Now code something awesome :tada:
 
 `./scipts/package_and_build.sh`
 
-_This will be mega bloated as it pulls in your node modules, and you will very quickly exceed the 10MB limit and you will need to ship your zip to S3_
+_This will be bloated as it pulls in your node modules, and you will quickly exceed the 10MB limit which means time to upload to S3_
 
 ### With Pure Logic
 
