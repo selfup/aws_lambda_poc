@@ -7,4 +7,7 @@ module.exports = {
   'rules': {
     'linebreak-style': 'off',
   },
+  'env': {
+    'jest/globals': true
+  },
 };
