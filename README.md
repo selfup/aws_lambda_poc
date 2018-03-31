@@ -8,7 +8,7 @@ _If you are going to us `fs` or something of similar nature (deps that depend on
 
 `zip -r index.js ./`
 
-_This will be mega bloated as it pulls in your node modules, and you will very quickly exeed the 10MB limit and need to ship your zip to S3_
+_This will be mega bloated as it pulls in your node modules, and you will very quickly exceed the 10MB limit and need to ship your zip to S3_
 
 ## Getting Started
 
