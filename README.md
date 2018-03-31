@@ -1,5 +1,9 @@
 # AWS Lambda Node.js Starter Kit
 
+**_DISCLAIMER_**
+
+_Not for pulling in std lib or runtime deps, purely for logic and keeping the footprint small_
+
 Get started after clone: `npm i`
 
 Now code something awesome :tada:
