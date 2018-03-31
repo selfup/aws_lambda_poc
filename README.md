@@ -4,7 +4,7 @@
 
 _Npm scripts and rollup bundling not for pulling in std lib or runtime deps, purely for logic and keeping the footprint small_
 
-_If you are going to us `fs` or something of similar nature (deps that depend on it too) just_:
+_If you are going to us `fs`/`child.exec` or something of similar nature (deps that depend on it too) just_:
 
 `zip -r index.zip ./`
 
