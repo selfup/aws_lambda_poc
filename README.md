@@ -1,14 +1,6 @@
 # AWS Lambda Node.js Starter Kit
 
-**_DISCLAIMER_**
-
-_Npm scripts and rollup bundling not for pulling in std lib or runtime deps, purely for logic and keeping the footprint small_
-
-_If you are going to us `fs`/`child.exec` or something of similar nature (deps that depend on it too) just_:
-
-`zip -r index.zip ./`
-
-_This will be mega bloated as it pulls in your node modules, and you will very quickly exceed the 10MB limit and you will need to ship your zip to S3_
+:tada: :rocket: :pray:
 
 ## Getting Started
 
@@ -18,9 +10,21 @@ Now code something awesome :tada:
 
 ## Packaging
 
+### Without Runtime/FileSystem/OS deps (fs/child.exec/etc..)
+
+`./scipts/package_and_build.sh`
+
+_This will be mega bloated as it pulls in your node modules, and you will very quickly exceed the 10MB limit and you will need to ship your zip to S3_
+
+### With Pure Logic
+
 `./scripts/build_and_zip.sh`
 
+## Deploy
+
 Now upload the zip or use the [aws-cli](https://aws.amazon.com/cli/) :rocket:
+
+If your zip is larger than 10MB you have to use AWS S3 to store your function
 
 That's it :joy:
 
