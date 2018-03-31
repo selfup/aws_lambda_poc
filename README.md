@@ -6,7 +6,7 @@ _Npm scripts and rollup bundling not for pulling in std lib or runtime deps, pur
 
 _If you are going to us `fs` or something of similar nature (deps that depend on it too) just_:
 
-`zip -r index.js ./`
+`zip -r index.zip ./`
 
 _This will be mega bloated as it pulls in your node modules, and you will very quickly exceed the 10MB limit and you will need to ship your zip to S3_
 
