@@ -10,7 +10,7 @@ Now code something awesome :tada:
 
 ## Packaging
 
-### Without Runtime/FileSystem/OS deps (fs/child.exec/etc..)
+### Using Runtime/FileSystem/OS deps (fs/child.exec/etc..)
 
 `./scipts/package_and_build.sh`
 
