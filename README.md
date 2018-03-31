@@ -4,7 +4,9 @@
 
 _Not for pulling in std lib or runtime deps, purely for logic and keeping the footprint small_
 
-Get started after clone: `npm i`
+## Getting Started
+
+`npm i`
 
 Now code something awesome :tada:
 
