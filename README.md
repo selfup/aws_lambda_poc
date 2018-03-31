@@ -10,11 +10,17 @@ Now code something awesome :tada:
 
 ## Packaging
 
-### Using Runtime/FileSystem/OS deps (fs/child.exec/etc..)
+### Using Runtime/FileSystem/OS deps/packages that depend on them (fs/child.exec/etc..)
+
+As you will no longer need babel/rollup/etc.. (can't bundle these kinds of things)
+
+Remove all `devDependencies`
+
+`rm -rf node_modules`
+
+`npm i`
 
 `./scipts/package_and_build.sh`
-
-_This will pull in your node modules, and you will quickly exceed the 10MB limit which means time to upload to S3_
 
 ### With Pure Logic
 
